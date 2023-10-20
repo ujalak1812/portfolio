@@ -1,0 +1,12 @@
+.card {
+  padding: $sp-3;
+  border-radius: $base-border-radius;
+  box-shadow: $base-box-shadow;
+  border: 1px solid $primary-light;
+  margin-bottom: $sp-6;
+  background-color: $white;
+
+  @media (max-width: $grid-breakpoints-xs) {
+    padding: $sp-2;
+  }
+}

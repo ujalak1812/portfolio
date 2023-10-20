@@ -1,0 +1,39 @@
+.section-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+
+  .bar {
+    width: 6px;
+    height: 36px;
+    margin-right: $sp-2;
+    border-radius: $base-border-radius;
+    background-color: $secondary;
+  }
+
+  @media (max-width: $grid-breakpoints-xl) {
+    margin-bottom: 50px;
+
+    .bar {
+      height: 34px;
+    }
+  }
+
+  @media (max-width: $grid-breakpoints-lg) {
+    margin-bottom: 40px;
+
+    .bar {
+      height: 32px;
+    }
+  }
+
+  @media (max-width: $grid-breakpoints-xs) {
+    margin-bottom: 30px;
+
+    .bar {
+      height: 24px;
+      width: 3px;
+      margin-right: $sp-1;
+    }
+  }
+}

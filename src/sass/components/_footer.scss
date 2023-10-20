@@ -1,0 +1,39 @@
+footer {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  clip-path: ellipse(105% 100% at 50% 0%);
+  background-image: $alternate-linear-gradient;
+  transform: rotate(180deg);
+
+  .container {
+    text-align: center;
+    transform: rotate(-180deg);
+
+    p {
+      margin-top: $sp-5;
+      margin-bottom: $sp-2;
+    }
+  }
+
+  @media (max-width: $grid-breakpoints-xl) {
+    clip-path: ellipse(118% 95% at 50% 0%);
+  }
+
+  @media (max-width: $grid-breakpoints-lg) {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    clip-path: ellipse(125% 92% at 50% 0%);
+  }
+
+  @media (max-width: $grid-breakpoints-sm) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    clip-path: ellipse(172% 98% at 50% 0%);
+  }
+
+  @media (max-width: $grid-breakpoints-xs) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    clip-path: ellipse(178% 98% at 50% 0%);
+  }
+}

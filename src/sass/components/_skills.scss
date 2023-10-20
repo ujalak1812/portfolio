@@ -1,0 +1,55 @@
+#skills {
+  .skill {
+    text-align: center;
+    padding-bottom: $sp-8;
+
+    .icon {
+      height: 75px;
+      width: 75px;
+      max-width: 68%;
+      margin-left: auto;
+      margin-right: auto;
+
+      svg {
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+      }
+    }
+
+    .title {
+      padding-top: $sp-1;
+      color: $secondary;
+      font-weight: 600;
+    }
+  }
+
+  @media (max-width: $grid-breakpoints-xl) {
+    .skill {
+      padding-bottom: $sp-6;
+
+      .icon {
+        height: 65px;
+        width: 65px;
+      }
+    }
+  }
+
+  @media (max-width: $grid-breakpoints-sm) {
+    .skill {
+      .icon {
+        height: 55px;
+        width: 55px;
+      }
+    }
+  }
+
+  @media (max-width: $grid-breakpoints-xs) {
+    .skill {
+      .icon {
+        height: 45px;
+        width: 45px;
+      }
+    }
+  }
+}

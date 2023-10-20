@@ -1,0 +1,50 @@
+#about {
+  u {
+    color: $secondary;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .img-wrapper {
+    display: flex;
+    position: relative;
+
+    .about-img {
+      width: 80%;
+      margin-right: auto;
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  .read-more {
+    margin-top: $sp-4;
+    color: $primary;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  @media (max-width: $grid-breakpoints-xl) {
+    .read-more {
+      margin-top: $sp-3;
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: $grid-breakpoints-sm) {
+    .img-wrapper {
+      margin-bottom: $sp-6;
+
+      .about-img {
+        margin-left: auto;
+      }
+    }
+  }
+
+  @media (max-width: $grid-breakpoints-xs) {
+    .read-more {
+      font-size: 14px;
+    }
+  }
+}

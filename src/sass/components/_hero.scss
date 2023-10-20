@@ -1,0 +1,139 @@
+#home {
+  background-image: $base-linear-gradient;
+  clip-path: ellipse(105% 100% at 50% 0%);
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  .content-wrapper {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h5 {
+      margin-bottom: $sp-1;
+    }
+
+    .title {
+      width: fit-content;
+
+      h1 {
+        width: fit-content;
+        margin-bottom: $sp-1;
+      }
+
+      h5 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+          text-transform: uppercase;
+          color: $secondary;
+          font-weight: 800;
+
+          &.space {
+            display: inline-block;
+            margin: 0 10px;
+          }
+        }
+      }
+    }
+
+    p {
+      margin-top: $sp-3;
+      margin-bottom: $sp-4;
+    }
+  }
+
+  .img-wrapper {
+    display: flex;
+    position: relative;
+
+    .hero-img {
+      width: 80%;
+      margin-left: auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-bubbles-img {
+      position: absolute;
+      z-index: 0;
+      top: -16%;
+      left: 4%;
+      width: 100%;
+      height: 100%;
+      animation: animatingBubbles 5s linear 2s infinite alternate;
+    }
+  }
+
+  @media (max-width: $grid-breakpoints-xl) {
+    clip-path: ellipse(118% 95% at 50% 0%);
+
+    .content-wrapper {
+      p {
+        margin-top: $sp-3;
+        margin-bottom: $sp-4;
+      }
+    }
+  }
+
+  @media (max-width: $grid-breakpoints-lg) {
+    padding-top: 175px;
+    padding-bottom: 175px;
+    clip-path: ellipse(125% 92% at 50% 0%);
+
+    .content-wrapper {
+      p {
+        margin-top: $sp-2;
+        margin-bottom: $sp-3;
+      }
+    }
+  }
+
+  @media (max-width: $grid-breakpoints-sm) {
+    padding-top: 125px;
+    padding-bottom: 125px;
+    clip-path: ellipse(172% 98% at 50% 0%);
+
+    .hero-content {
+      flex-direction: column-reverse;
+
+      .img-wrapper {
+        margin-bottom: $sp-6;
+
+        .hero-img {
+          margin-right: auto;
+        }
+
+        .hero-bubbles-img {
+          left: -6%;
+        }
+      }
+
+      .content-wrapper {
+        text-align: center;
+
+        .title {
+          align-self: center;
+
+          .space {
+            margin: 0 4px;
+          }
+        }
+
+        p {
+          margin-top: $sp-3;
+          margin-bottom: $sp-4;
+        }
+      }
+    }
+  }
+
+  @media (max-width: $grid-breakpoints-xs) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    clip-path: ellipse(178% 98% at 50% 0%);
+  }
+}
