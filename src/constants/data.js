@@ -224,7 +224,7 @@ export const projects = [
     code: "https://github.com/ujalak1812/BudgetApp",
   },
   {
-    id: 3,
+    id: 4,
     title: "Roll-and-play",
     desc: "A fun dice rolling game built to practice JavaScript DOM Manipulation",
     img: "",
