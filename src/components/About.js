@@ -18,29 +18,13 @@ const About = () => {
             </div>
           </div>
           <div className="col-12 col-sm-6">
-            <p>
-              I am a <u>Senior Software Engineer</u> with <u>5 years</u> of
-              professional experience in <u>frontend web development</u>. I
-              graduated as a Computer Systems Engineer in 2018.
-            </p>
+            <p>I am a <u>Frontend Engineer</u> with <u>over 6 years of experience</u> building clean, scalable, and high-performing web applications. I graduated as a Computer Systems Engineer back in 2018, and since then, I have worked on a wide range of projects—everything from static websites and e-commerce platforms to admin dashboards and email templates.</p>
             <br />
-            <p>
-              Over my five-year career, I've had the privilege of contributing
-              to a number of projects, including static websites, web apps,
-              ecommerce sites, admin dashboards, email templates etc. I have a
-              keen eye for detail, ensuring pixel-perfect designs and seamless
-              experiences across all devices.
-            </p>
+            <p>I have had the chance to work in both small teams and larger setups, often collaborating directly with designers, backend developers, and clients to bring ideas to life.</p>
             <br />
-            <p>
-              I've worked with both small and large teams and also collaborated
-              directly with the clients. Currently, I am working remotely for a
-              US based company as an outsourced resource.
-            </p>
+            <p>These days, I am working remotely with a US-based company, where I focus on building responsive, accessible UIs using HTML, SCSS, React, and Next.js.</p>
             <br />
-            <p>
-              Apart from coding, I also enjoy designing UI and have worked on a
-              few personal projects.
+            <p>I love solving problems with clean code, building reusable components, and making sure every design looks great on any screen. Whether it's leading a frontend architecture or helping content teams move faster with custom CMS components, I am all about creating smooth, user-friendly experiences.
             </p>
             {/* <button className="read-more">read more</button> */}
           </div>

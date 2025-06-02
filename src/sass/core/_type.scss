@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
   font-family: $base-font;
@@ -6,32 +7,37 @@ body {
   color: $black;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: $heading-font;
+}
+
 h1 {
   font-size: 56px;
   color: $primary;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 36px;
   color: $primary;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h3 {
   font-size: 32px;
+  font-weight: 600;
   color: $secondary;
 }
 
 h4 {
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 500;
   color: $secondary;
 }
 
 h5 {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 p,

@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import SectionTitle from "./SectionTitle";
 import Button from "./Button";
+// import Chip from "./Chip";
 import { projects } from "../constants/data";
 
 const Portfolio = () => {
@@ -20,20 +21,12 @@ const Portfolio = () => {
               key={`project-${project.id}`}
             >
               <Card>
-                {/* <div className="image-wrapper">
-                    <div className="image" />
-                  </div> */}
                 <h3>{project.title}</h3>
                 <p>{project.desc}</p>
                 <div className="techs">
-                  {project.techs.map((tech) => (
-                    <span
-                      title={tech.title}
-                      key={`project-${project.id}-${tech.id}`}
-                    >
-                      {tech.icon}
-                    </span>
-                  ))}
+                  {/* {project.techs.map((tech) => (
+                    <Chip text={tech} id={tech} />
+                  ))} */}
                 </div>
                 <div className="btn-wrapper">
                   <Button url={project.demo} type="default" text="View Demo" />

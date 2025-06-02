@@ -1,5 +1,6 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
+import Chip from "./Chip";
 import { skills } from "../constants/data";
 
 const Skills = () => {
@@ -11,13 +12,12 @@ const Skills = () => {
             <SectionTitle title="I work with" />
           </div>
         </div>
-        <div className="row">
-          {skills.map((skill) => (
-            <div className="col-4 col-md-3 col-lg-2 skill" key={skill.id}>
-              <div className="icon">{skill.icon}</div>
-              <p className="title">{skill.title}</p>
-            </div>
-          ))}
+        <div className="row justify-content-center">
+          <div className="col-lg-8 d-flex flex-wrap justify-content-center">
+            {skills.map((skill) => (
+              <Chip text={skill} key={skill} />
+            ))}
+          </div>
         </div>
       </div>
     </section>

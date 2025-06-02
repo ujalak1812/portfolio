@@ -2,6 +2,11 @@
   .vertical-timeline {
     width: 100%;
     max-width: unset;
+    
+    .vertical-timeline-element {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
 
     .vertical-timeline-element-content {
       padding: 0;
@@ -10,16 +15,20 @@
 
       .card {
         margin-bottom: 0;
-
-        h4 {
-          font-weight: 700;
-          margin-bottom: $sp-1;
-        }
+        box-shadow: none;
+        border: none;
 
         h5 {
           color: $primary;
-          font-weight: 700;
-          // margin-bottom: $sp-4;
+          font-weight: 600;
+
+          .company {
+            color: $black;
+          }
+        }
+
+        .location {
+          margin-top: 0;
         }
 
         li {

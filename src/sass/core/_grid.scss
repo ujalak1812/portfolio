@@ -11,8 +11,8 @@
 
 .container {
   width: 100%;
-  padding-right: $gutters/2;
-  padding-left: $gutters/2;
+  padding-right: calc($gutters/2);
+  padding-left: calc($gutters/2);
   margin-right: auto;
   margin-left: auto;
 }
@@ -43,8 +43,8 @@
 
 .container-fluid {
   width: 100%;
-  padding-right: $gutters/2;
-  padding-left: $gutters/2;
+  padding-right: calc($gutters/2);
+  padding-left: calc($gutters/2);
   margin-right: auto;
   margin-left: auto;
 }
@@ -54,8 +54,8 @@
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -$gutters/2;
-  margin-left: -$gutters/2;
+  margin-right: -calc($gutters/2);
+  margin-left: -calc($gutters/2);
 }
 
 .no-gutters {
@@ -143,8 +143,8 @@
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: $gutters/2;
-  padding-left: $gutters/2;
+  padding-right: calc($gutters/2);
+  padding-left: calc($gutters/2);
 }
 
 .col {

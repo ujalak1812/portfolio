@@ -28,8 +28,8 @@ const Experience = () => {
                   date={exp.date}
                 >
                   <Card>
-                    <h4>{exp.jobTitle}</h4>
-                    <h5>{exp.company}</h5>
+                    <h5>{exp.jobTitle}<span className="company"> | {exp.company}</span></h5>
+                    <p className="location">{exp.location}</p>
                     <p className="d-sm-none">{exp.date}</p>
                     {/* <ul>
                         {
@@ -47,7 +47,7 @@ const Experience = () => {
         <div className="row">
           <div className="col-12">
             <p style={{ marginTop: 40 }}>
-              To learn more about my work experience, <a target="_blank" rel="noreferrer" href={links.resume} className="link">download my resume</a>
+              To learn more about my work experience, <a target="_blank" rel="noreferrer" href={links.resume} className="link">download my resume</a> or visit my <a target="_blank" rel="noreferrer" href={links.linkedin} className="link">LinkedIn Profile</a>
             </p>
           </div>
         </div>
