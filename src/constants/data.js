@@ -79,21 +79,21 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Color Generator",
+    desc: "A small app that allows users to generate 20 hex colors around a provided hex value",
+    img: "",
+    techs: ["React", "CSS"],
+    demo: "https://ujalak1812.github.io/color-generator/",
+    code: "https://github.com/ujalak1812/color-generator",
+  },
+  {
+    id: 3,
     title: "EasyBank",
     desc: "A static landing page created for a challenge,  using the given content and style guide",
     img: "",
     techs: ["HTML", "SASS"],
     demo: "https://ujalak1812.github.io/EasyBank/",
     code: "https://github.com/ujalak1812/EasyBank",
-  },
-  {
-    id: 3,
-    title: "BudgetApp",
-    desc: "A simple web app that keeps track of the monthly income and expenses (not responsive)",
-    img: "",
-    techs: ["HTML", "CSS", "JavaScript"],
-    demo: "https://ujalak1812.github.io/BudgetApp/",
-    code: "https://github.com/ujalak1812/BudgetApp",
   },
   {
     id: 4,
@@ -103,6 +103,15 @@ export const projects = [
     techs: ["HTML", "CSS", "JavaScript"],
     demo: "https://ujalak1812.github.io/Roll-n-Play/",
     code: "https://github.com/ujalak1812/Roll-n-Play",
+  },
+  {
+    id: 5,
+    title: "BudgetApp",
+    desc: "A simple web app that keeps track of the monthly income and expenses (not responsive)",
+    img: "",
+    techs: ["HTML", "CSS", "JavaScript"],
+    demo: "https://ujalak1812.github.io/BudgetApp/",
+    code: "https://github.com/ujalak1812/BudgetApp",
   },
 ];
 
